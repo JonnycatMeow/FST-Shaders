@@ -166,5 +166,5 @@ void main()
     fragColor = outputColor; //output resultant fragment color
     
     //alpha support 
-    gl_FragColor.a = flixel_texture2D(bitmap, openfl_TextureCoordv).a;
+    //gl_FragColor.a = flixel_texture2D(bitmap, openfl_TextureCoordv).a;
 }
